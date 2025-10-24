@@ -9,9 +9,68 @@
     <form action="./response.html" name="Biodata" target="_blank" method="get">
         <fieldset>
             <legend>Biodata</legend>
-            <label for="name">name</label>
+            <label for="name">Name</label>
             <input type="text" id="name" name="name" placeholder="enter your name" required>
             <br><br>
+            <label for="pass">password</label>
+            <input type="password" id="password" name="pass" required>
+            <br><br>
+
+            <label for="dob">DOB:</label>
+            <input type="date" id="dob" name="dob" required>
+            <br><br>
+
+            <label for="email">email</label>
+            <input type="email" id="email" name="email" required>
+            <br><br>
+
+            <label for="tel">Phone</label>
+            <input type="tel" id="tel" name="tel" required>
+            <br><br>
+
+            <label for="add">Address</label>
+            <textarea name="text" id="add" rows="8" cols="50"></textarea>
+            <br><br>
+
+            <label for="gender">gender</label>
+            <input type="radio" id="female" name="gender" checked>
+            <label for="male">female</label>
+            <input type="radio" id="male" name="gender">
+            <label for="male">male</label>
+            <br><br>
+
+
+            <label for="check">Vehicles you have:</label>
+            <input type="checkbox" id="check" name="Vehicle1">
+            <label for="check">car</label>
+            <input type="checkbox" id="check" name="Vehicle2" checked>
+            <label for="check"> bike</label>
+            <br><br>
+            <label for="select"> select your Programming Language</label>
+            <select name="select" id="select">
+            <option>select your Language</option>
+            <optgroup label="Programming lang">
+                <option value="python">python</option>
+                <option value="c++">c++</option>
+                <option value="c">c</option>
+            </optgroup>
+            <optgroup label="fronted Technologies">
+                <option value="css">css</option>
+                <option value="java">java</option>
+                <option value="html">html</option>
+            </optgroup>
+            </select>
+            <br><br>
+
+
+            <label for="url">url:</label>
+            <input type="url" id="url" name="url" placeholder="enter your website address">
+            <br><br>
+
+            <label for="file">file upload:</label>
+            <input type="file" id="file" name="file" required>
+            <br><br>
+
         </fieldset>
     </form>
 </body>
